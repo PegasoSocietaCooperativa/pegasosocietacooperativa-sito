@@ -7,11 +7,13 @@ import Home from './pages/Home';
 import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <NavBar />
+
       <Routes>
 
         <Route path="/" index Component={Home} />
@@ -19,6 +21,7 @@ function App() {
         <Route path="/contatti" Component={Contatti} />
       </Routes>
 
+      <Footer />
     </Router>
   );
 }
