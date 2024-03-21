@@ -1,9 +1,8 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <nav style={styles.nav}>
+        <nav style={{ ...styles.nav, position: 'sticky', top: 0 }}>
             <ul style={styles.navList}>
                 <li style={styles.navItem}>
                     <Link to="/">
@@ -24,9 +23,9 @@ const NavBar = () => {
     );
 }
 
-const styles = {
+const styles: any = {
     nav: {
-        backgroundColor: '#333',
+        backgroundColor: '#390979',
         padding: '10px 20px',
     },
     navList: {
@@ -50,6 +49,11 @@ const styles = {
         width: '50px', // Imposta la larghezza del logo in base alle tue esigenze
         height: 'auto', // Imposta l'altezza su auto per mantenere le proporzioni originali
     }
+};
+
+// Aggiungi uno stile hover agli elementi della lista
+styles.navLink[':hover'] = {
+    color: '#ff0000', // Cambia il colore al passaggio del mouse
 };
 
 export default NavBar;

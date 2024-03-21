@@ -31,7 +31,7 @@ const Footer = () => {
     );
 }
 
-const styles = {
+const styles: any = {
     footer: {
         backgroundColor: '#333',
         color: '#fff',
@@ -41,7 +41,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'space-around',
         alignItems: 'flex-start',
-        // flexWrap: 'wrap',
+        flexWrap: 'wrap',
     },
     footerSection: {
         flex: '1 1 300px',
@@ -56,7 +56,7 @@ const styles = {
         padding: 0,
         margin: 0,
         display: 'flex',
-        // flexDirection: 'column',
+        flexDirection: 'column',
     },
     footerBottom: {
         borderTop: '1px solid #fff',
