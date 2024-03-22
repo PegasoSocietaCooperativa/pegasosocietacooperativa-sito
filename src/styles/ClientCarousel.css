@@ -1,0 +1,32 @@
+.sectionContainer {
+    border-top: 3px solid #e8a628;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.carouselImage {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    /* Centra l'immagine orizzontalmente */
+}
+
+/* Stili per il carosello slick */
+/* .slick-slide {
+    margin: 0 5px;
+}
+
+.slick-slide img {
+    width: auto;
+    height: 200px;
+} */

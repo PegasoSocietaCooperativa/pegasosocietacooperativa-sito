@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider, { Settings } from 'react-slick';
+import '../styles/ClientCarousel.css';
 import acquaSaponeImage from '../assets/clients/AcquaSapone.jpeg';
 import arcalanetImage from '../assets/clients/Arcaplanet.jpg';
 import brtImage from '../assets/clients/BRT.png';
@@ -8,6 +9,7 @@ import globoImage from '../assets/clients/Globo.jpeg';
 import marzottoImage from '../assets/clients/Marzotto.png';
 import tntImage from '../assets/clients/TNT.png';
 import vicolungoImage from '../assets/clients/Vicolungo.png';
+
 
 // Stili CSS per il carosello
 import 'slick-carousel/slick/slick.css';
@@ -54,14 +56,14 @@ const ClientCarousel: React.FC = () => {
     ];
 
     return (<>
-        <div style={styles.sectionContainer}>
+        <div className='sectionContainer'>
 
-            <h1 style={styles.title}>I nostri clienti</h1>
+            <h1 className='title'>I nostri clienti</h1>
 
             <Slider {...settings}>
                 {images.map((image, index) => (
-                    <div key={index} style={styles.imageContainer}>
-                        <img src={image} alt={`client${index + 1}`} style={styles.carouselImage} />
+                    <div key={index} className='imageContainer'>
+                        <img src={image} alt={`client${index + 1}`} className='carouselImage' />
                     </div>
                 ))}
             </Slider>
@@ -71,24 +73,5 @@ const ClientCarousel: React.FC = () => {
 };
 
 
-const styles = {
-    sectionContainer: {
-        borderTop: '3px solid grey',
-        marginBottom: '50px'
-    },
-    title: {
-        display: 'flex',
-        justifyContent: 'center',
-    },
-    imageContainer: {
-        display: 'flex',
-        justifyContent: 'center',
-    },
-    carouselImage: {
-        width: 'auto',
-        height: '200px',
-        margin: '0 auto', // Centra l'immagine orizzontalmente
-    }
-}
 
 export default ClientCarousel;

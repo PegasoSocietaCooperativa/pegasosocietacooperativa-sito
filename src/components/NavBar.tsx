@@ -1,59 +1,29 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/NavBar.css';
+import pegasoLogo from '../assets/LogoSmall.svg';
 
 const NavBar = () => {
     return (
-        <nav style={{ ...styles.nav, position: 'sticky', top: 0 }}>
-            <ul style={styles.navList}>
-                <li style={styles.navItem}>
+        <nav className="nav">
+            <ul className="navList">
+                <li className="navItem">
                     <Link to="/">
-                        <img src={require('../assets/LogoSmall.svg').default} alt="logo-psc" style={styles.logo} />
+                        <img src={pegasoLogo} alt="logo-psc" className="logo" />
                     </Link>
                 </li>
-                <li style={styles.navItem}>
-                    <Link to="/" style={styles.navLink}>Home</Link>
+                <li className="navItem">
+                    <Link to="/" className="navLink">Home</Link>
                 </li>
-                <li style={styles.navItem}>
-                    <Link to="/servizi" style={styles.navLink}>Servizi</Link>
+                <li className="navItem">
+                    <Link to="/servizi" className="navLink">Servizi</Link>
                 </li>
-                <li style={styles.navItem}>
-                    <Link to="/contatti" style={styles.navLink}>Contatti</Link>
+                <li className="navItem">
+                    <Link to="/contatti" className="navLink">Contatti</Link>
                 </li>
             </ul>
         </nav>
     );
 }
-
-const styles: any = {
-    nav: {
-        backgroundColor: '#390979',
-        padding: '10px 20px',
-    },
-    navList: {
-        listStyleType: 'none',
-        margin: 0,
-        padding: 0,
-        display: 'flex',
-        justifyContent: 'center',
-    },
-    navItem: {
-        marginRight: '20px',
-    },
-    navLink: {
-        color: '#fff',
-        textDecoration: 'none',
-        fontSize: '21px',
-        fontWeight: 'bold',
-        transition: 'color 0.3s ease',
-    },
-    logo: {
-        width: '50px', // Imposta la larghezza del logo in base alle tue esigenze
-        height: 'auto', // Imposta l'altezza su auto per mantenere le proporzioni originali
-    }
-};
-
-// Aggiungi uno stile hover agli elementi della lista
-styles.navLink[':hover'] = {
-    color: '#ff0000', // Cambia il colore al passaggio del mouse
-};
 
 export default NavBar;
