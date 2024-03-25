@@ -1,20 +1,17 @@
 .container {
-    margin: 0 auto;
-
+    margin: 0 10vw;
 
 }
 
 .hero {
     margin: 0 auto;
     /* width: 70%; */
-    /* background-color: #f9de59; */
+    background-color: #f9de59;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 40px;
     border-radius: 0px 0px 25px 25px;
-    /* -webkit-box-shadow: 0px 0px 25px 1px red;
-    box-shadow: 0px 0px 25px 1px red; */
 }
 
 .heroImage {
@@ -54,7 +51,7 @@
     display: flex;
     justify-content: center;
     color: black;
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .servicesContainer {
@@ -65,13 +62,28 @@
 }
 
 .service {
-    width: calc(28% - 20px);
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    /* Mantieni la larghezza del 20% dello spazio disponibile */
+    height: 40vh;
+    /* Imposta un'altezza fissa */
     margin-bottom: 20px;
-    background-color: #e8a628;
+    background-color: #f9de59;
     padding: 20px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 25px 1px red;
     box-shadow: 0px 0px 10px 1px red;
+}
+
+
+
+
+.service:hover {
+    transform: scale(105%, 105%);
+    -webkit-box-shadow: 0px 0px 25px 1px red;
+    box-shadow: 0px 0px 10px 1px red;
+
 }
 
 .service:last-child {
@@ -79,8 +91,10 @@
 }
 
 .serviceImage {
+    height: 100%;
+    /* Imposta un'altezza fissa */
     width: 100%;
-    height: auto;
+    object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
     -webkit-box-shadow: 0px 0px 25px 1px red;
@@ -106,16 +120,23 @@
     font-weight: bold;
     margin-bottom: 10px;
     color: black;
+    text-align: center;
 }
 
-.serviceDescription {
-    font-size: 16px;
-    line-height: 1.6;
-    color: black;
+
+
+.clientSection {
+    display: none;
 }
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
+
+    .container {
+        margin: 0 auto;
+
+    }
+
     .hero {
         background-color: #f9de59;
         display: flex;
@@ -142,7 +163,6 @@
         background-color: #f9de59;
         color: black;
         padding: 10px;
-        /* position: absolute; */
         bottom: 0;
         right: 0;
         margin: 50px;
@@ -155,16 +175,106 @@
 
     }
 
+    .servicesTitle {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 3rem;
+    }
+
     .service {
         width: calc(50% - 20px);
         /* Imposta la larghezza delle cards su schermi più piccoli */
+    }
+
+
+
+
+    .clientCarouselSection {
+        display: none;
+    }
+
+    .clientSection {
+        display: contents;
     }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+
+    .hero {
+        background-color: #f9de59;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        z-index: -1;
+    }
+
+    .heroImage {
+        width: 80%;
+        max-width: 650px;
+        height: auto;
+
+    }
+
+
+    .heroPresentazione {
+        width: auto;
+        max-width: max-content;
+        height: max-content;
+        max-height: fit-content;
+        background-color: #f9de59;
+        color: black;
+        padding: 10px;
+        bottom: 0;
+        right: 0;
+        margin: 0px 10px 15px 10px;
+        font-size: 12px;
+        line-height: 1.4;
+        font-weight: bold;
+        border-radius: 25px;
+        -webkit-box-shadow: 0px 0px 25px 1px red;
+        box-shadow: 0px 0px 25px 1px red;
+
+    }
+
+    .servicesTitle {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 2rem;
+    }
+
+
     .service {
-        width: calc(90% - 20px);
+        width: calc(80% - 20px);
+
         /* Imposta la larghezza delle cards su schermi ancora più piccoli */
+    }
+
+    .serviceHeading {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: black;
+        text-align: center;
+    }
+
+
+    .clientCarouselSection {
+        display: none;
+    }
+
+    .clientSection {
+        display: contents;
     }
 }

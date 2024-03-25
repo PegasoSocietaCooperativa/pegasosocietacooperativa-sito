@@ -1,0 +1,62 @@
+.footer {
+    background-color: #f9de59;
+    color: #333;
+    padding: 50px 0;
+    /* Aumenta lo spazio interno per una maggiore visibilità */
+    text-align: center;
+    font-weight: bold;
+    /* Centra il testo */
+}
+
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra il contenuto */
+}
+
+.footerSection {
+    flex: 1 1 200px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.footerHeading {
+    font-size: 24px;
+    /* Aumenta leggermente la dimensione del testo per maggiore enfasi */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footerText {
+    color: #333;
+    margin-bottom: 10px;
+    /* Aggiungi un margine inferiore per una maggiore separazione */
+}
+
+.footerLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+.socialLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerBottom {
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    /* Riduci leggermente la dimensione del testo per una migliore proporzionalità */
+}

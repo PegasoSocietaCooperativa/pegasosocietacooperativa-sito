@@ -1,5 +1,4 @@
 import '../styles/Home.css';
-import ClientCarousel from '../components/ClientCarousel';
 import giardinaggio4Img from '../assets/services/giardinaggio4.jpg';
 import pulizie1Img from '../assets/services/pulizie1.jpg';
 import caldaia2Img from '../assets/services/caldaia2.jpg';
@@ -7,9 +6,8 @@ import controlloAccessi4Img from '../assets/services/portierato4.jpeg'
 import tinteggiature1Img from '../assets/services/tinteggiature1.jpg'
 import serviziEdili1Img from '../assets/services/edilizia1.jpg'
 import pegasoLogo from '../assets/LogoSmall.svg';
-import ClientSection from '../components/ClientSection';
 
-const Home = () => {
+const Giardinaggio = () => {
     return (
         <div className="container">
             <div className='hero'>
@@ -60,14 +58,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='clientCarouselSection'>
-                <ClientCarousel />
-            </div>
-            <div className='clientSection'>
-                <ClientSection />
-            </div>
+
         </div>
     );
 }
 
-export default Home;
+export default Giardinaggio;

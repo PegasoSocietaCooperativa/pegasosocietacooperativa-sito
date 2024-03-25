@@ -60,7 +60,7 @@ const ClientCarousel: React.FC = () => {
 
             <h1 className='title'>I nostri clienti</h1>
 
-            <Slider {...settings}>
+            <Slider {...settings} className='carousel'>
                 {images.map((image, index) => (
                     <div key={index} className='imageContainer'>
                         <img src={image} alt={`client${index + 1}`} className='carouselImage' />

@@ -18,6 +18,12 @@ function App() {
         <Route path="/" index Component={Home} />
         <Route path="/servizi" Component={Servizi} />
         <Route path="/contatti" Component={Contatti} />
+        <Route path="/servizi/giardinaggio" Component={Servizi} />
+        <Route path="/servizi/pulizie" Component={Servizi} />
+        <Route path="/servizi/termoidraulica" Component={Servizi} />
+        <Route path="/servizi/accessi" Component={Servizi} />
+        <Route path="/servizi/tinterggiature" Component={Servizi} />
+        <Route path="/servizi/edilizia" Component={Servizi} />
       </Routes>
 
       <Footer />
