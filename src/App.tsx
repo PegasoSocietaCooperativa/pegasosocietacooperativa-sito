@@ -7,6 +7,7 @@ import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Giardinaggio from './pages/Services/Giardinaggio';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path="/" index Component={Home} />
         <Route path="/servizi" Component={Servizi} />
         <Route path="/contatti" Component={Contatti} />
-        <Route path="/servizi/giardinaggio" Component={Servizi} />
+        <Route path="/servizi/giardinaggio" Component={Giardinaggio} />
         <Route path="/servizi/pulizie" Component={Servizi} />
         <Route path="/servizi/termoidraulica" Component={Servizi} />
         <Route path="/servizi/accessi" Component={Servizi} />

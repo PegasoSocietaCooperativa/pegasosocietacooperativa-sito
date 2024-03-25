@@ -1,64 +1,17 @@
-import '../styles/Home.css';
-import giardinaggio4Img from '../assets/services/giardinaggio4.jpg';
-import pulizie1Img from '../assets/services/pulizie1.jpg';
-import caldaia2Img from '../assets/services/caldaia2.jpg';
-import controlloAccessi4Img from '../assets/services/portierato4.jpeg'
-import tinteggiature1Img from '../assets/services/tinteggiature1.jpg'
-import serviziEdili1Img from '../assets/services/edilizia1.jpg'
-import pegasoLogo from '../assets/LogoSmall.svg';
+import '../../styles/Giardinaggio.css'; // Assicurati di importare lo stile coerente con il resto del sito
 
 const Giardinaggio = () => {
     return (
-        <div className="container">
-            <div className='hero'>
-                <img src={pegasoLogo} alt="Pegaso Logo" className="heroImage" />
-                <div className='heroPresentazione'>Con oltre dieci anni di esperienza nel settore, ci specializziamo in servizi di giardinaggio e manutenzione di aree verdi nel Biellese, Vercellese e Novarese. Presso Pegaso, garantiamo massima qualità, affidabilità e precisione nei nostri interventi, sia per la manutenzione ordinaria che straordinaria.
-
-                    Oltre al giardinaggio, operiamo anche nei settori della pulizia, igienizzazione, sanificazione certificata, edilizia residenziale, tinteggiature, termoidraulica, portierato fiduciario e custodia. Effettuiamo sopralluoghi e preventivi gratuiti senza impegno. Per ulteriori informazioni e richieste di preventivo, vi invitiamo a contattarci tramite telefono o email.</div>
+        <div className="giardinaggioPageContainer">
+            {/* AGGIUNGERE HERO CARD DEL SERVIZIO */}
+            {/* AGGIUNGERE "RICHIEDI ORA UN PREVENTIVO GRATUITO" */}
+            <h1 className="giardinaggioPageTitle">Servizi di Giardinaggio</h1>
+            <div className="giardinaggioPageContent">
+                <p>PEGASO SOCIETA’ COOPERATIVA si occupa sia di manutenzione ordinaria regolare che di quella straordinaria.</p>
+                <p>Si impegna a mantenere il giardino del cliente in perfette condizioni nel tempo.</p>
+                <p>Si effettuano sfalci, pulizie dei manti erbosi, potature siepi e tanto altro, tutto ciò utilizzando metodi e strumenti professionali con il nostro personale competente e qualificato, pronto a soddisfare ogni tipologia di clientela, dal pubblico al privato.</p>
+                <p>Contattaci per chiedere un preventivo con sopralluogo gratuito!</p>
             </div>
-            <div className="servicesSection">
-                <h1 className="servicesTitle">I nostri servizi</h1>
-                <div className="servicesContainer">
-                    <div className="service">
-                        <img src={giardinaggio4Img} alt="Servizio Giardinaggio" className="serviceImage" />
-                        <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Manutenzione del Verde</h2>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <img src={pulizie1Img} alt="Servizio Pulizie" className="serviceImage" />
-                        <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Pulizie e Sanificazioni</h2>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <img src={caldaia2Img} alt="Servizio Termoidraulica" className="serviceImage" />
-                        <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Termoidraulica</h2>
-                        </div>
-                    </div>
-
-                    <div className="service">
-                        <img src={controlloAccessi4Img} alt="Servizio Controllo Accessi" className="serviceImage" />
-                        <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Controllo Accessi</h2>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <img src={tinteggiature1Img} alt="Servizio Tinteggiature" className="serviceImage" />
-                        <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Tinteggiature</h2>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <img src={serviziEdili1Img} alt="Servizi Edili" className="serviceImage" />
-                        <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Servizi Edili</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     );
 }

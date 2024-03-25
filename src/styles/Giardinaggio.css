@@ -1,0 +1,27 @@
+/* Page.css */
+
+.giardinaggioPageContainer {
+    max-width: 800px;
+    /* Imposta la larghezza massima del contenitore della pagina */
+    margin: 0 auto;
+    /* Centra il contenuto nella pagina */
+    padding: 20px;
+    /* Aggiungi spazio intorno al contenuto della pagina */
+    height: 80vh;
+}
+
+.giardinaggioPageTitle {
+    font-size: 2rem;
+    /* Imposta la dimensione del titolo della pagina */
+    text-align: center;
+    /* Centra il titolo della pagina */
+    margin-bottom: 20px;
+    /* Aggiungi spazio inferiore al titolo della pagina */
+}
+
+.giardinaggioPageContent {
+    font-size: 1.1rem;
+    /* Imposta la dimensione del testo del contenuto della pagina */
+    line-height: 1.6;
+    /* Imposta l'altezza della riga per una migliore leggibilità */
+}
