@@ -21,19 +21,20 @@ const Home = () => {
             </div>
             <div className="servicesSection">
                 <h1 className="servicesTitle">I nostri servizi</h1>
+
                 <div className="servicesContainer">
-                    <Link to='servizi/giardinaggio' className="service">
+                    <Link to='/servizi#giardinaggio' className="service">
                         <img src={giardinaggio4Img} alt="Servizio Giardinaggio" className="serviceImage" />
                         <div className='serviceInfo'>
                             <h2 className="serviceHeading">Manutenzione del Verde</h2>
                         </div>
                     </Link>
-                    <div className="service">
+                    <Link to='/servizi#pulizie' className="service">
                         <img src={pulizie1Img} alt="Servizio Pulizie" className="serviceImage" />
                         <div className='serviceInfo'>
                             <h2 className="serviceHeading">Pulizie e Sanificazioni</h2>
                         </div>
-                    </div>
+                    </Link>
                     <div className="service">
                         <img src={caldaia2Img} alt="Servizio Termoidraulica" className="serviceImage" />
                         <div className='serviceInfo'>

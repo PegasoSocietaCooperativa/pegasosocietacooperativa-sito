@@ -1,11 +1,10 @@
-import React from 'react';
 import '../../styles/Giardinaggio.css'; // Assicurati di importare lo stile coerente con il resto del sito
 import PreventivoForm from '../../components/PreventivoForm';
 import giardinaggio4Img from '../../assets/services/giardinaggio4.jpg';
 
 const Giardinaggio = () => {
     return (
-        <div className="giardinaggioPageContainer">
+        <div className="giardinaggioPageContainer" id='giardinaggio'>
             {/* HERO CARD DEL SERVIZIO */}
             <div className="heroCard">
                 {/* Contenuto della Hero Card */}

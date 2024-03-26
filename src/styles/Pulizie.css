@@ -1,6 +1,6 @@
-/* Giardinaggio.css */
+/* Pulizie.css */
 
-.giardinaggioPageContainer {
+.puliziePageContainer {
     max-width: 800px;
     /* Imposta la larghezza massima del contenitore della pagina */
     margin: 0 auto;
@@ -10,7 +10,7 @@
     min-height: 80vh;
 }
 
-.giardinaggioPageTitle {
+.puliziePageTitle {
     font-size: 2rem;
     /* Imposta la dimensione del titolo della pagina */
     text-align: center;
@@ -19,7 +19,7 @@
     /* Aggiungi spazio inferiore al titolo della pagina */
 }
 
-.giardinaggioPageContent {
+.puliziePageContent {
     font-size: 1.1rem;
     /* Imposta la dimensione del testo del contenuto della pagina */
     line-height: 1.6;
