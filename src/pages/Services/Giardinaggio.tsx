@@ -18,7 +18,6 @@ const Giardinaggio = () => {
                 <p>Si impegna a mantenere il giardino del cliente in perfette condizioni nel tempo.</p>
                 <p>Si effettuano sfalci, pulizie dei manti erbosi, potature siepi e tanto altro, tutto ciò utilizzando metodi e strumenti professionali con il nostro personale competente e qualificato, pronto a soddisfare ogni tipologia di clientela, dal pubblico al privato.</p>
                 <p>Contattaci per chiedere un preventivo con sopralluogo gratuito!</p>
-                <PreventivoForm />
 
             </div>
         </div>

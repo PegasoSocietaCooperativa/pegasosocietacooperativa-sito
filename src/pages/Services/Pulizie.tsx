@@ -21,7 +21,6 @@ const Pulizie = () => {
                 </ul>
                 <p>Il nostro team altamente qualificato e attrezzato con i migliori strumenti e prodotti sul mercato garantisce risultati di alta qualità e soddisfazione del cliente. Contattaci oggi stesso per richiedere un preventivo gratuito!</p>
             </div>
-            <PreventivoForm />
         </div>
     );
 }

@@ -1,3 +1,4 @@
+import PreventivoForm from "../components/PreventivoForm";
 import Giardinaggio from "./Services/Giardinaggio";
 import Pulizie from "./Services/Pulizie";
 
@@ -6,6 +7,7 @@ const Servizi = () => {
         <div >
             <Giardinaggio />
             <Pulizie />
+            <PreventivoForm />
         </div>
     );
 }
