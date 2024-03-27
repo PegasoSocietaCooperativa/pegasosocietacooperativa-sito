@@ -43,7 +43,7 @@ const Home = () => {
                     <Link to='/servizi#portierato' className="service">
                         <img src={controlloAccessi4Img} alt="Servizio Controllo Accessi" className="serviceImage" />
                         <div className='serviceInfo'>
-                            <h2 className="serviceHeading">Controllo Accessi</h2>
+                            <h2 className="serviceHeading">Portierato e controllo accessi</h2>
                         </div>
                     </Link>
                     <Link to='/servizi#tinteggiature' className="service">

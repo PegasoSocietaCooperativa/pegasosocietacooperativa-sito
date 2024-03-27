@@ -1,0 +1,82 @@
+/* Contatti.css */
+.contattiPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 80vh;
+}
+
+.heroLogoContatti {
+    width: auto;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+.contattiContentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contattiContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contattiTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contattiDivider {
+    height: 15vh;
+    width: auto;
+    border: 3px solid black;
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactList li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .heroLogoContatti {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .contattiContentContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .contattiContent {
+        width: 90%;
+        /* Occupa l'intero spazio su schermi più piccoli */
+        margin-bottom: 20px;
+    }
+
+    .contattiDivider {
+        display: none;
+    }
+}
