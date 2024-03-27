@@ -15,9 +15,7 @@ const Home = () => {
         <div className="container">
             <div className='hero'>
                 <img src={pegasoLogo} alt="Pegaso Logo" className="heroImage" />
-                <div className='heroPresentazione'>Con oltre dieci anni di esperienza nel settore, ci specializziamo in servizi di giardinaggio e manutenzione di aree verdi nel Biellese, Vercellese e Novarese. Presso Pegaso, garantiamo massima qualità, affidabilità e precisione nei nostri interventi, sia per la manutenzione ordinaria che straordinaria.
-
-                    Oltre al giardinaggio, operiamo anche nei settori della pulizia, igienizzazione, sanificazione certificata, edilizia residenziale, tinteggiature, termoidraulica, portierato fiduciario e custodia. Effettuiamo sopralluoghi e preventivi gratuiti senza impegno. Per ulteriori informazioni e richieste di preventivo, vi invitiamo a contattarci tramite telefono o email.</div>
+                <div className='heroPresentazione'>Con oltre dieci anni di esperienza nel settore, ci specializziamo in servizi di giardinaggio e manutenzione di aree verdi nel Biellese, Vercellese e Novarese. Presso Pegaso, garantiamo massima qualità, affidabilità e precisione nei nostri interventi, sia per la manutenzione ordinaria che straordinaria. Oltre al giardinaggio, operiamo anche nei settori della pulizia, igienizzazione, sanificazione certificata, edilizia residenziale, tinteggiature, termoidraulica, portierato fiduciario e custodia. Effettuiamo sopralluoghi e preventivi gratuiti senza impegno. Per ulteriori informazioni e richieste di preventivo, vi invitiamo a contattarci tramite telefono o email.</div>
             </div>
             <div className="servicesSection">
                 <h1 className="servicesTitle">I nostri servizi</h1>
