@@ -1,0 +1,19 @@
+/* Portierato.css */
+
+.portieratoPageContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.portieratoPageTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portieratoPageContent {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

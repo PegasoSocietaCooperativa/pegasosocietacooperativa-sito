@@ -1,0 +1,19 @@
+/* ServiziEdili.css */
+
+.serviziEdiliPageContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.serviziEdiliPageTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.serviziEdiliPageContent {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

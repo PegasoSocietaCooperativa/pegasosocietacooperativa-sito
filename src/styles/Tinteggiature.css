@@ -1,0 +1,19 @@
+/* Tinteggiature.css */
+
+.tinteggiaturePageContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.tinteggiaturePageTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tinteggiaturePageContent {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

@@ -21,15 +21,17 @@ const PreventivoForm = () => {
     };
 
     return (
-        <>
+
+        <div className='preventivoSection'>
+            <h1 className='preventivoTitle'>Contattaci ora!</h1>
             <form className="preventivoForm" onSubmit={sendEmail}>
                 {/* <input className="formInput" type="text" name="reply_to" placeholder="Your Name" required/> */}
                 <input className="formInput" type="email" name="from_name" placeholder="Inserisci la tua mail..." required />
                 <textarea className="formTextarea" name="message" placeholder="Scrivi qui il tuo mesaggio..." required></textarea>
                 <button className="formButton" type="submit">Invia Richiesta</button>
             </form>
+        </div>
 
-        </>
     );
 }
 

@@ -35,31 +35,31 @@ const Home = () => {
                             <h2 className="serviceHeading">Pulizie e Sanificazioni</h2>
                         </div>
                     </Link>
-                    <div className="service">
+                    <Link to='/servizi#termoidraulica' className="service">
                         <img src={caldaia2Img} alt="Servizio Termoidraulica" className="serviceImage" />
                         <div className='serviceInfo'>
                             <h2 className="serviceHeading">Termoidraulica</h2>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="service">
+                    <Link to='/servizi#portierato' className="service">
                         <img src={controlloAccessi4Img} alt="Servizio Controllo Accessi" className="serviceImage" />
                         <div className='serviceInfo'>
                             <h2 className="serviceHeading">Controllo Accessi</h2>
                         </div>
-                    </div>
-                    <div className="service">
+                    </Link>
+                    <Link to='/servizi#tinteggiature' className="service">
                         <img src={tinteggiature1Img} alt="Servizio Tinteggiature" className="serviceImage" />
                         <div className='serviceInfo'>
                             <h2 className="serviceHeading">Tinteggiature</h2>
                         </div>
-                    </div>
-                    <div className="service">
+                    </Link>
+                    <Link to='/servizi#edilizia' className="service">
                         <img src={serviziEdili1Img} alt="Servizi Edili" className="serviceImage" />
                         <div className='serviceInfo'>
                             <h2 className="serviceHeading">Servizi Edili</h2>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
             <div className='clientCarouselSection'>
