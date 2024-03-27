@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    height: 5vh;
 }
 
 .navList {
@@ -12,7 +13,9 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 
 .navItem {
     margin-right: 20px;
@@ -21,16 +24,48 @@
 .navLink {
     color: black;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 2rem;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .logo {
-    width: 50px;
-    height: auto;
+    width: auto;
+    height: 40px;
 }
 
+
 .navLink:hover {
-    color: #ff0000;
+    color: #0056b3;
+}
+
+/* Aggiungi queste media query al tuo file CSS */
+
+/* Schermi che sono 600px o più piccoli */
+@media screen and (max-width: 600px) {
+    .nav {
+        padding: 5px 10px;
+        /* Riduci il padding */
+    }
+
+
+    .logo {
+        display: none;
+        /* Nascondi il logo */
+    }
+
+    .navLink {
+        font-size: 1.5rem;
+        /* Riduci la dimensione del testo */
+    }
+}
+
+/* Schermi che sono 400px o più piccoli */
+@media screen and (max-width: 400px) {
+
+
+    .navLink {
+        font-size: 1.2rem;
+        /* Ulteriormente riduci la dimensione del testo */
+    }
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
 import pegasoLogo from '../assets/LogoSmall.svg';
@@ -12,6 +11,7 @@ const NavBar = () => {
                         <img src={pegasoLogo} alt="logo-psc" className="logo" />
                     </Link>
                 </li>
+
                 <li className="navItem">
                     <Link to="/" className="navLink">Home</Link>
                 </li>
@@ -22,7 +22,7 @@ const NavBar = () => {
                     <Link to="/contatti" className="navLink">Contatti</Link>
                 </li>
             </ul>
-        </nav>
+        </nav >
     );
 }
 
