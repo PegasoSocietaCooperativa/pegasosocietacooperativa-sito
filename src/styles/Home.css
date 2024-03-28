@@ -34,8 +34,8 @@
     line-height: 1.4;
     font-weight: bold;
     border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 25px 1px red;
-    box-shadow: 0px 0px 25px 1px red;
+    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
+    box-shadow: 0px 0px 25px 1px lightGrey;
 
 }
 
@@ -72,7 +72,7 @@
     padding: 20px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 25px 1px red;
-    box-shadow: 0px 0px 10px 1px red;
+    box-shadow: 0px 0px 10px 1px lightGrey;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
 }
@@ -82,8 +82,8 @@
 
 .service:hover {
     transform: scale(1.05);
-    -webkit-box-shadow: 0px 0px 25px 1px red;
-    box-shadow: 0px 0px 10px 1px red;
+    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
+    box-shadow: 0px 0px 10px 1px lightGrey;
 
 }
 
@@ -100,8 +100,8 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
-    -webkit-box-shadow: 0px 0px 25px 1px red;
-    box-shadow: 0px 0px 10px 1px red;
+    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
+    box-shadow: 0px 0px 10px 1px lightGrey;
 }
 
 
@@ -113,8 +113,8 @@
     line-height: 1.4;
     font-weight: bold;
     border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 25px 1px red;
-    box-shadow: 0px 0px 10px 1px red;
+    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
+    box-shadow: 0px 0px 10px 1px lightGrey;
 
 }
 
@@ -173,8 +173,8 @@
         line-height: 1.4;
         font-weight: bold;
         border-radius: 25px;
-        -webkit-box-shadow: 0px 0px 25px 1px red;
-        box-shadow: 0px 0px 25px 1px red;
+        -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
+        box-shadow: 0px 0px 25px 1px lightGrey;
 
     }
 
@@ -241,8 +241,8 @@
         line-height: 1.4;
         font-weight: bold;
         border-radius: 25px;
-        -webkit-box-shadow: 0px 0px 25px 1px red;
-        box-shadow: 0px 0px 25px 1px red;
+        -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
+        box-shadow: 0px 0px 25px 1px lightGrey;
 
     }
 

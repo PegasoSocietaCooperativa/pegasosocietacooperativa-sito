@@ -35,10 +35,10 @@ const Contatti = () => {
             <div className="contattiContentContainer" >
                 <div className="contattiContent" >
                     <ul className="contactList" >
-                        <li><FontAwesomeIcon icon={faMobileAlt} /> <a href="tel:3515101152">351 5101152</a> (<FontAwesomeIcon icon={faWhatsapp} /> anche su WhatsApp)</li>
-                        <li><FontAwesomeIcon icon={faPhone} /> <a href="tel:03211696110">0321 1696110</a> </li>
-                        <li><FontAwesomeIcon icon={faPhone} /> <a href="tel:0159526649">015 9526649</a></li>
-                        <li><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:info@pegasomultiservizi.it">info@pegasomultiservizi.it</a> </li>
+                        <li><FontAwesomeIcon icon={faMobileAlt} /> <a href="tel:3515101152" className='contactLink'>351 5101152</a> (<FontAwesomeIcon icon={faWhatsapp} /> anche su WhatsApp)</li>
+                        <li><FontAwesomeIcon icon={faPhone} /> <a href="tel:03211696110" className='contactLink'>0321 1696110</a> </li>
+                        <li><FontAwesomeIcon icon={faPhone} /> <a href="tel:0159526649" className='contactLink'>015 9526649</a></li>
+                        <li><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:info@pegasomultiservizi.it" className='contactLink'>info@pegasomultiservizi.it</a> </li>
                     </ul>
                 </div>
                 <div className='contattiDivider'></div>
@@ -47,7 +47,7 @@ const Contatti = () => {
 
             <h1 className="contattiTitle" id='lavoraConNoi'>Lavora con noi</h1>
             <p>Siamo sempre alla ricerca di personale qualificato, pronto a mettersi in gioco! </p>
-            <p>Compila il Form o invia il tuo CV aggiornato a  <a href="mailto:pegaso.uffpersonale@libero.it">pegaso.uffpersonale@libero.it</a> ed inizia a far parte della nostra squadra!</p>
+            <p>Compila il Form o invia il tuo CV aggiornato a  <a href="mailto:info@pegasomultiservizi.it">info@pegasomultiservizi.it</a> ed inizia a far parte della nostra squadra!</p>
 
             <CandidaturaForm />
 
