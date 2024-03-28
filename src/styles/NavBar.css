@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 
@@ -39,7 +40,37 @@
     color: #0056b3;
 }
 
-/* Aggiungi queste media query al tuo file CSS */
+/* NavBar.css */
+.dropdownServizi {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentServizi {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-contentServizi a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentServizi a:hover {
+    background-color: #ddd;
+}
+
+.dropdownServizi:hover .dropdown-contentServizi {
+    display: block;
+}
+
+
 
 /* Schermi che sono 600px o più piccoli */
 @media screen and (max-width: 600px) {
