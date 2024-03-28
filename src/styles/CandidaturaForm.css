@@ -1,0 +1,59 @@
+/* candidaturaForm.css */
+.candidaturaSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.candidaturaForm {
+    max-width: 400px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.formInput,
+.formTextarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Garantisce che il padding non aumenti la larghezza del campo */
+}
+
+.formTextarea {
+    height: 150px;
+    /* Altezza predefinita del textarea */
+}
+
+.formButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    /* Colore del pulsante */
+    color: #fff;
+    /* Colore del testo del pulsante */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Transizione per un effetto di hover più fluido */
+
+    /* Stile di hover */
+    &:hover {
+        background-color: #0056b3;
+        /* Colore del pulsante al passaggio del mouse */
+    }
+}

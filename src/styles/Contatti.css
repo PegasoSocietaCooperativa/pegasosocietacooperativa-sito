@@ -27,8 +27,8 @@
     flex-direction: column;
     align-items: center;
     width: 20vw;
+    max-width: 400px;
     margin: 0 auto;
-    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
@@ -55,10 +55,12 @@
     margin-bottom: 10px;
 }
 
+
+
 @media screen and (max-width: 900px) {
 
     .heroLogoContatti {
-        width: 90vw;
+        width: 70vw;
         height: auto;
         margin-bottom: 20px;
     }
@@ -71,9 +73,8 @@
     }
 
     .contattiContent {
-        width: 90%;
-        /* Occupa l'intero spazio su schermi più piccoli */
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .contattiDivider {
