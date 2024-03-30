@@ -6,7 +6,7 @@ import caldaia2Img from '../assets/services/caldaia2.jpg';
 import controlloAccessi4Img from '../assets/services/portierato4.jpeg'
 import tinteggiature1Img from '../assets/services/tinteggiature1.jpg'
 import serviziEdili1Img from '../assets/services/edilizia1.jpg'
-import pegasoLogo from '../assets/LogoSmall.svg';
+import pegasoLogo from '../assets/LogoSmall.png';
 import ClientSection from '../components/ClientSection';
 import { Link, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';

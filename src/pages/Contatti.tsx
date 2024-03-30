@@ -1,6 +1,6 @@
 // Contatti.js
 import '../styles/Contatti.css';
-import pegasoLogo from '../assets/LogoSmall.svg';
+import pegasoLogo from '../assets/LogoSmall.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
