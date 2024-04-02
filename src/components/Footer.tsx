@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/Footer.css';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faMobileAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -33,6 +34,7 @@ const Footer = () => {
             <div className='footerBottom'>
                 <p className='footerText'>&copy; 2024 PEGASO SOCIETA' COOPERATIVA - 02262640036</p>
                 <p className='footerText'>Tutti i diritti riservati.</p>
+                <Link to={"/privacy"} className='footerLink'>Policy Privacy</Link>
             </div>
         </footer >
     );

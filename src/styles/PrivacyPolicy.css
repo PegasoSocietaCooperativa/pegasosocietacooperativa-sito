@@ -1,0 +1,31 @@
+/* PrivacyPolicy.css */
+.privacyPolicyContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.privacyPolicyContainer h1 {
+    font-size: 24px;
+}
+
+.privacyPolicyContainer h2 {
+    font-size: 20px;
+}
+
+.privacyPolicyContainer h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.privacyPolicyContainer p {
+    margin-bottom: 10px;
+}
+
+.privacyPolicyContainer ul {
+    margin-bottom: 10px;
+}
+
+.privacyPolicyContainer ul li {
+    margin-bottom: 5px;
+}
