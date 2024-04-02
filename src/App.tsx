@@ -7,13 +7,13 @@ import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import Giardinaggio from './pages/Services/Giardinaggio';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
     <Router>
       <NavBar />
-
+      <SpeedInsights />
       <Routes>
 
         <Route path="/" index Component={Home} />
