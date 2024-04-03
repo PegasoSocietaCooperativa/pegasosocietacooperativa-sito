@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
 
             <section>
                 <h2>Trattamento dei dati personali</h2>
-                <p>L’informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 – Codice in materia di protezione dei dati personali a tutti gli utenti che, interagendo con il Sito, forniscono a pegasomultiservizi.it la propria email.</p>
+                <p>L’informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 – Codice in materia di protezione dei dati personali a tutti gli utenti che, interagendo con il Sito, forniscono a questo sito la propria email.</p>
             </section>
 
             <section>
@@ -63,7 +63,10 @@ const PrivacyPolicy = () => {
 
             <section>
                 <h2>Aggiornamenti</h2>
-                <p>La Privacy Policy di questo Sito è soggetta ad aggiornamenti.</p>
+                <p>La Privacy Policy di questo sito è soggetta ad aggiornamenti.</p>
+            </section>
+            <section>
+                <p>Utilizzando questo sito, l'utente accetta la nostra Politica sulla Privacy e l'uso dei cookie.</p>
             </section>
         </div>
     );
