@@ -22,14 +22,14 @@ const PrivacyPolicy = () => {
 
             <section>
                 <h2>Scopo del Sito</h2>
-                <p>Benvenuto nell'informativa sulla privacy di [Nome del Sito]. La tua privacy è importante per noi e ci impegniamo a proteggere e rispettare le tue informazioni personali. Questa pagina ti fornirà informazioni su come vengono gestiti i tuoi dati quando utilizzi il nostro sito.</p>
+                <p>Benvenuto nell'informativa sulla privacy di PEGASO SOCIETA' COOPERATIVA. La tua privacy è importante per noi e ci impegniamo a proteggere e rispettare le tue informazioni personali. Questa pagina ti fornirà informazioni su come vengono gestiti i tuoi dati quando utilizzi il nostro sito.</p>
                 <p>Il nostro sito è un'importante risorsa informativa, dedicata a far conoscere PEGASO e i servizi che offre. Operiamo senza fini di lucro e ci impegniamo a fornire informazioni accurate e aggiornate ai nostri utenti.</p>
             </section>
 
             <section>
                 <h2>Trattamento dei dati personali</h2>
                 <p>L’informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 – Codice in materia di protezione dei dati personali a tutti gli utenti che, interagendo con il Sito, forniscono a questo sito la propria email.</p>
-                <p>Presso [Nome del Sito], trattiamo i dati personali in conformità con le leggi applicabili in materia di protezione dei dati, incluso il D. Lgs. n. 196/2003. Questo significa che ci impegniamo a trattare i tuoi dati in modo trasparente, lecito e secondo principi di correttezza e riservatezza.</p>
+                <p>Presso PEGASO SOCIETA' COOPERATIVA, trattiamo i dati personali in conformità con le leggi applicabili in materia di protezione dei dati, incluso il D. Lgs. n. 196/2003. Questo significa che ci impegniamo a trattare i tuoi dati in modo trasparente, lecito e secondo principi di correttezza e riservatezza.</p>
                 <p>Quando utilizzi il nostro sito e fornisci la tua email, ci impegniamo a utilizzare queste informazioni solo per gli scopi specifici indicati e previsti dalla legge. La tua privacy è importante per noi e non condivideremo mai i tuoi dati con terze parti senza il tuo consenso esplicito.</p>
             </section>
 

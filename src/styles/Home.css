@@ -4,8 +4,6 @@
 
 .hero {
     margin: 0 auto;
-    /* width: 70%; */
-    /* background-color: #f9de59; */
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -19,6 +17,13 @@
     max-width: 650px;
     height: auto;
     margin: 50px;
+}
+
+.textHeroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .heroPresentazione {
@@ -38,6 +43,23 @@
     box-shadow: 0px 0px 25px 1px lightGrey;
 
 }
+
+.heroLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e8a628;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.heroLink:hover {
+    background-color: #c89615;
+}
+
 
 .servicesSection {
     display: flex;
@@ -71,7 +93,7 @@
     background-color: #f9de59;
     padding: 20px;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 25px 1px red;
+    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
     box-shadow: 0px 0px 10px 1px lightGrey;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
@@ -100,8 +122,8 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
-    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
-    box-shadow: 0px 0px 10px 1px lightGrey;
+    -webkit-box-shadow: 0px 0px 25px 1px #e8a628;
+    box-shadow: 0px 0px 10px 1px #e8a628;
 }
 
 
@@ -113,8 +135,8 @@
     line-height: 1.4;
     font-weight: bold;
     border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 25px 1px lightGrey;
-    box-shadow: 0px 0px 10px 1px lightGrey;
+    -webkit-box-shadow: 0px 0px 25px 1px #e8a628;
+    box-shadow: 0px 0px 10px 1px #e8a628;
 
 }
 
@@ -125,7 +147,6 @@
     color: black;
     text-align: center;
 }
-
 
 
 .clientSection {
