@@ -34,7 +34,7 @@ const Footer = () => {
             <div className='footerBottom'>
                 <p className='footerText'>&copy; 2024 PEGASO SOCIETA' COOPERATIVA - 02262640036</p>
                 <p className='footerText'>Tutti i diritti riservati.</p>
-                <Link to={"/privacy"} className='footerLink'>Policy Privacy</Link>
+                <Link to={"/privacy"} className='footerLink'>Policy Privacy e Cookies</Link>
             </div>
         </footer >
     );
