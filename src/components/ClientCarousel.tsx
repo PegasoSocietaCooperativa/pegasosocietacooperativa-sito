@@ -9,6 +9,8 @@ import globoImage from '../assets/clients/Globo.jpeg';
 import marzottoImage from '../assets/clients/Marzotto.png';
 import tntImage from '../assets/clients/TNT.png';
 import vicolungoImage from '../assets/clients/Vicolungo.png';
+import lidlImage from '../assets/clients/Lidl.png';
+import decathlonImage from '../assets/clients/Decathlon.png';
 
 
 // Stili CSS per il carosello
@@ -46,19 +48,21 @@ const ClientCarousel: React.FC = () => {
 
     const images: string[] = [
         acquaSaponeImage,
+        decathlonImage,
+        lidlImage,
         arcalanetImage,
         brtImage,
         familaImage,
         globoImage,
         marzottoImage,
         tntImage,
-        vicolungoImage
+        vicolungoImage,
     ];
 
     return (<>
         <div className='sectionContainer'>
 
-            <h1 className='title'>I nostri clienti</h1>
+            <h1 className='title'>Tra i nostri clienti</h1>
 
             <Slider {...settings} className='carousel'>
                 {images.map((image, index) => (

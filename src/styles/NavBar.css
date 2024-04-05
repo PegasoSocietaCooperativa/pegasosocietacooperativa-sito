@@ -37,7 +37,7 @@
 
 
 .navLink:hover {
-    color: #0056b3;
+    color: #3900ff;
 }
 
 /* NavBar.css */
@@ -76,7 +76,6 @@
 @media screen and (max-width: 600px) {
     .nav {
         padding: 5px 10px;
-        /* Riduci il padding */
     }
 
 

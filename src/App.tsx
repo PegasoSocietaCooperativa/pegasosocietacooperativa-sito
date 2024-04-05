@@ -21,6 +21,8 @@ function App() {
         <Route path="/servizi" Component={Servizi} />
         <Route path="/contatti" Component={Contatti} />
         <Route path="/privacy" Component={PrivacyPolicy} />
+        <Route path="*" Component={Home} />
+
 
       </Routes>
 
